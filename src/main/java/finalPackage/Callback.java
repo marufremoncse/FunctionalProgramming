@@ -3,7 +3,7 @@ package finalPackage;
 import java.io.Console;
 import java.util.function.Consumer;
 
-public class Main {
+public class Callback {
 
 	public static void main(String[] args) {
 		hello("Marufur", null, value -> System.out.println("Last name is not provided!!"));
